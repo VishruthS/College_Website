@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="footer_styles.css">
+  <link rel="stylesheet" type="text/css" href="contact.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+  <title></title>
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">
+        <img src="images/logo.jpg"  alt="logo" >
+     </div>
+
+     <div>
+       <nav>
+        <ul class="header__menu">
+          <li><a href="../home.html">Home</a></li>
+          <li>
+              <a>About Us</a>
+              <ul class="header__sub1">
+                <li><a href="../About/overview.html">Overview</a></li>
+                <li><a href="../About/Management.html">Management Committee</a></li>
+                <li><a href="../About/vision.html">Vision, Mission & Objective</a></li>
+                <li><a href="../About/message_princi.html">Message from Principal</a></li>
+            </ul>  <!--Submenu-->
+          </li>
+
+           <li><a>Academics</a>
+              <ul class="header__sub1">
+                <li><a href="../Academics/admission.html">Admission</a></li>
+                <li><a href="../Academics/courses.html">Courses offered</a></li>
+                <li><a href="../Academics/CR.html">Class Representatives</a></li>
+                <li><a href="../Academics/placements.html">Placements</a></li>
+            </ul>  <!--Submenu-->
+          </li>
+
+          <li><a>Faculty</a>
+              <ul class="header__sub1">
+                <li><a href="../Faculty/bca.html">BCA</a></li>
+                <li><a href="../Faculty/bsc.html">BSc</a></li>
+                <li><a href="../Faculty/bcom.html">Bcom</a></li>
+                <li><a href="../Faculty/basic_science.html">Basic Science</a></li>
+                <li><a href="../Faculty/languages.html">Languages</a></li>
+                 <li><a href="../Faculty/library_PE.html">Library and PE</a></li>
+                <li><a href="../Faculty/non_teaching.html">Non-teaching</a></li>
+            </ul>  <!--Submenu-->
+          </li>
+          <li><a href="../facilities/Facility.html">Facilities</a></li>
+          <li><a>News and Events</a>
+              <ul class="header__sub1">
+                <li><a href="../News_events/Achievements_and_awards.html">Achievements & Awards</a></li>
+                <li><a href="../News_events/gallery.html">Gallery</a></li>
+                <li><a href="../News_events/media_and_press.html">Media And Press</a></li>
+                <li><a href="../News_events/our_proud_students.html">Our Proud Students</a></li>
+            </ul>  <!--Submenu-->
+          </li>
+          <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+     </div>
+  </header>
+
+
+<div class="row">
+<div class="leftcolumn">
+<h2>ENQUIRY</h2>
+ <div class="container">
+  <form action="action_page.php">
+
+    <label for="fname"><h3>First Name</h3></label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+
+    <label for="lname"><h3>Last Name</h3></label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+
+    <label for="contact number"> <h3>Contact number</h3></label>
+    <input type="text" name="contact number" placeholder="9876543210"><br>
+
+    <label for="query"><h3> Query/comment</h3></label>
+    <textarea id="Query" name="Query" placeholder="Write something.." style="height:200px"></textarea><br>
+
+    <input type="Submit" value="Submit">
+
+  </form>
+</div>
+</div>
+
+<div class="righttcolumn">
+  <br>
+<p><iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.583213156274!2d76.63898001481488!3d12.276459591314557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf6ff7b3ab19bd%3A0xa8b28fa1ed3540bb!2sNIE%20First%20Grade%20College!5e0!3m2!1sen!2sin!4v1604857799171!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+</div>
+</div>
+<br><br>
+
+<div class="row1">
+  <div class="column1" onclick="openTab('b1');" style="background:#9a9b9c;">OFFICE NO.</div>
+  <div class="column1" onclick="openTab('b2');" style="background:#9a9b9c;">MAIL US</div>
+  <div class="column1" onclick="openTab('b3');" style="background:#9a9b9c;">ADDRESS</div>
+</div>
+
+<!-- The expanding grid (hidden by default) -->
+<div id="b1" class="containerTab" style="display:none;background:#9a9b9c">
+  <!-- If you want the ability to close the container, add a close button -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+<!--   <center><h2>OFFICE NO.</h2></center> -->
+  <center><h2>0821- 2489676</h2></center>
+</div>
+
+<div id="b2" class="containerTab" style="display:none;background:#9a9b9c">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+<!--   <center><h2>GMAIL</h2></center> -->
+  <center><h2>niefgc@gmail.com</h2></center>
+</div>
+
+<div id="b3" class="containerTab" style="display:none;background:#9a9b9c">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+ <!--  <center><h2>REACH US AT</h2></center> -->
+  <center><h2>NIE First Grade College.<br>
+No. 65, opp. Railway Workshop,<br>
+Vishweswaranagar,<br>
+Mysore- 570 008</h2></center>
+</div>
+
+
+<div class="footer">
+  <div class="row">
+
+  <div class="column">
+        <img  src="images/logo.jpg"  alt="logo">
+
+        <!-- <p>We create possibilities
+          for the connected world.<br><b class="color">Be Bold.</b></p> -->
+  </div>
+
+   <div class="column">
+        <h3>Explore</h3>
+          <ul>
+            <li><a href="../home.html"style="text-decoration:none">Home</a></li>
+            <li><a href="../About/overview.html"style="text-decoration:none">About Us</a></li>
+            <li><a href="../Academics/courses.html"style="text-decoration:none">Academics</a></li>
+            <li><a href="../Faculty/bca.html"style="text-decoration:none">Faculty</a></li>
+            <li><a href="../facilities/Facility.html"style="text-decoration:none">Facilities</a></li>
+            <li><a href="../News_events/news_events.html"style="text-decoration:none">News & Events</a></li>
+            <li><a href="contact_us.html"style="text-decoration:none">Contact Us</a></li>
+          </ul>
+  </div>
+
+  <div class="column">
+         <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#"style="text-decoration:none">Home</a></li>
+            <li><a href="#"style="text-decoration:none">About</a></li>
+            <li><a href="#"style="text-decoration:none">Capabilities</a></li>
+            <li><a href="#"style="text-decoration:none">Careers</a></li>
+            <li><a href="#"style="text-decoration:none">Home</a></li>
+            <li><a href="#"style="text-decoration:none">About</a></li>
+            <li><a href="#"style="text-decoration:none">Capabilities</a></li>
+            <li><a href="#"style="text-decoration:none">Careers</a></li>
+          </ul>
+  </div>
+
+  <div class="column">
+        <h3>Visit Us</h3>
+          <p>NIE<br>
+65, NIE Campus, Vishweshwara Nagar<br>
+Mysore - 570008, Karnataka.<br>
+Phone: (0821)2489679
+<p><a href="#" style="text-decoration:none">Instagram       |</a>
+  <a href="#" style="text-decoration:none">Twitter      |</a>
+  <a href="#" style="text-decoration:none">LinkedIn</a></p>
+
+  </div>
+</div>
+<br>
+
+ <center><p>© Copyright 2020 NIE Degree College, Mysore. All rights reserved.Designed and Developed by Techlance Software®</p></center>
+
+</div>
+
+</div>
+
+<script src="contact.js"></script>
+</body>
+</html>

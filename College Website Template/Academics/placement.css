@@ -1,0 +1,205 @@
+.container1{
+  /*padding-left: 50px;
+  padding-top: 20px;*/
+  margin-left: 5%;
+  margin-right: 5%;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.container2{
+  /*padding-left: 50px;
+  padding-top: 20px;*/
+  margin-left: 5%;
+  margin-right: 5%;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.container3{
+  padding-top: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.sliderheading{
+  font-size: 50px;
+}
+
+
+h1{
+  font-size: 50px;
+  text-align: center;
+}
+
+h2{
+  font-size: 30px;
+  color: orange;
+  text-align: center;
+}
+
+.para {
+  text-align: justify;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 18px;
+  line-height: 1.6;
+ font-family: 'Montserrat', sans-serif;
+}
+
+table, th, td {
+
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+padding: 10px;
+text-align: center;
+}
+
+ tr:nth-child(even) {
+  background-color: #eee;
+}
+
+
+/* testimonial container */
+.slideshow-container2 {
+  position: relative;
+  width: 94%;
+  margin: 50px;
+  margin-bottom: 20px;
+}
+
+/* Slides */
+.mySlides2 {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev2, .next2 {
+  cursor: pointer;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: orange;
+  font-weight: bold;
+  font-size: 50px;
+  user-select: none;
+}
+
+.prev2 {
+  position: absolute;
+  left: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next2 {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev2:hover, .next2:hover {
+  background-color: black;
+  color: white;
+}
+
+
+/* For mobile phones: */
+
+
+@media (min-width:320px)  {
+.col-s-1 {width: 8.33%;}
+.col-s-2 {width: 16.66%;}
+.col-s-3 {width: 25%;}
+.col-s-4 {width: 33.33%;}
+.col-s-5 {width: 41.66%;}
+.col-s-6 {width: 50%;}
+.col-s-7 {width: 58.33%;}
+.col-s-8 {width: 66.66%;}
+.col-s-9 {width: 75%;}
+.col-s-10 {width: 83.33%;}
+.col-s-11 {width: 91.66%;}
+.col-s-12 {width: 100%;}
+}
+
+@media (min-width:481px)  {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+ }
+
+@media (min-width:641px)  {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+ }
+
+@media (min-width:961px)  {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media (min-width:1025px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media (min-width:1281px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}

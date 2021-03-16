@@ -1,0 +1,76 @@
+h1{
+ font-family: 'Montserrat', sans-serif;
+ font-size: 60px;
+}
+
+h2 {
+ font-family: 'Montserrat', sans-serif;
+  /*margin-left: 4%;*/
+  margin-top: 3%;
+  margin-bottom: 3%;
+  text-align: center;
+  color: orange;
+  font-size: 40px;
+}
+
+
+.pictures img{
+  height: 100px;
+  margin: 10px;
+}
+
+figure {
+  width: 20%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  margin: 15px;
+  padding: 5px;
+  display: inline-block;
+}
+figcaption {
+  /*background-color: black;*/
+  color: black;
+  font-style: normal;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding: 2px;
+  text-align: center;
+
+
+}
+
+.designation{
+ font-family: 'Goldman';
+ color: grey;
+}
+
+.qualification{
+ font-family: 'Goldman';
+ color: grey;
+}
+
+
+
+.container {
+ /* position: relative;*/
+  text-align: center;
+  /*color: black;*/
+
+  }
+
+  .centered {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pic{
+  width:100%; 
+  height:400px;
+  opacity: 0.8;
+}

@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+/*header begins*/
+.header,
+.header__menu{
+  display: flex;
+  font-size: 17px;
+}
+
+.header{
+  justify-content:space-between;
+  align-items:center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header,
+.header__sub1{
+  background-color: #121e2c
+}
+
+/*logo styling*/
+.logo img{
+  float:left;
+  padding: 10 10 10 10;
+  width: 200px;
+  height: 100px;
+ /* padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;*/
+}
+
+.header__logo,
+.header__menu{
+  margin:0;
+}
+
+.header__menu{
+  padding-left: 0;
+  position:relative;
+}
+
+.header,
+.header__menu a{
+    color:#fff;
+}
+
+.header__menu a{
+  text-decoration:none;
+  line-height:3;
+  padding-right: 10px;
+  display: block;
+}
+
+.header__menu li{
+  list-style:none;
+}
+
+.header__menu > li{
+  margin-right: 2em;
+}
+
+.header__sub1{
+  display: none;
+  position:absolute;
+  width: 250px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.header__sub1 li{
+  border-bottom: .5px solid rgba(255,255,255,.2);
+}
+
+.header__sub1 li:last-child{
+   border:0;
+}
+
+/* Activación de menú */
+li:hover .header__sub1{
+  display: block;
+}
+
+/* Iconos */
+.caret-down,
+.header__sub1 .caret-right{
+  margin-left: .5em;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+ padding-left: 12%;
+  background:  #121e2c;
+  margin-top: 20px;
+  color: white;
+}
+.footer a {
+	color: white;
+}
+.column {
+	float: left;
+	width: 25%;
+	padding: 10px;
+}
+
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}

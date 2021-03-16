@@ -1,0 +1,57 @@
+.container1{
+  /*padding-left: 50px;
+  padding-top: 20px;*/
+  margin-left: 5%;
+  margin-right: 5%;
+   font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-size: 50px;
+  text-align: center;
+}
+
+h2{
+  font-size: 30px;
+  color: orange;
+  text-align: center;
+}
+
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+padding: 10px;
+}
+ tr:nth-child(even) {
+  background-color: #eee;
+}
+
+
+
+/* For mobile phones: */
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}

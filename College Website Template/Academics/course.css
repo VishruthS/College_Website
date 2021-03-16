@@ -1,0 +1,25 @@
+.container1{
+  /*padding-left: 50px;
+  padding-top: 20px;*/
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+  font-size: 60px;
+  text-align: center;
+
+}
+
+h2{
+  font-size: 30px;
+  color: orange;
+  text-align: center;
+}
+
+.para {
+  margin-bottom: 2%;
+  margin-left: 25%;
+  margin-right: 15%;
+  font-size: 18px;
+  line-height: 1.9;
+ font-family: 'Montserrat', sans-serif;
+}
